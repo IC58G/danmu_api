@@ -21,9 +21,9 @@ export const HTML_TEMPLATE = /* html */ `
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="darkreader-lock">
     <meta name="color-scheme" content="light dark">
-    <title>LogVar弹幕API</title>
-    <link rel="icon" type="image/jpg" href="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg">
-    <link rel="apple-touch-icon" href="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg">
+    <title>弹幕 API 🤟</title>
+    <link rel="icon" type="image/jpg" href="https://s.w.org/images/core/emoji/13.0.0/svg/2764.svg">
+    <link rel="apple-touch-icon" href="https://s.w.org/images/core/emoji/13.0.0/svg/2764.svg">
     <style>${baseCssContent}</style>
     <style>${componentsCssContent}</style>
     <style>${formsCssContent}</style>
@@ -56,16 +56,16 @@ export const HTML_TEMPLATE = /* html */ `
         <div class="header">
             <div class="header-left">
                 <div class="logo-title-container">
-                    <div class="logo"><img src="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg" width="500"/></div>
-                    <h1>LogVar弹幕API</h1>
+                     <h1>message: </h1>
+                    <h2>弹幕解析服务运行正常。</h2>
                 </div>
                 <div class="version-info">
-                    <span class="version-badge">当前版本: <span id="current-version">v${globals.version}</span></span>
-                    <a class="update-badge" id="update-badge" href="https://t.me/s/logvar_danmu_channel" target="_blank" rel="noopener" title="查看更新通知">
-                        🎉 最新版本: <span id="latest-version">加载中...</span>
+                    <span class="version-badge">code: 200</span></span>
+                    <a class="update-badge" id="update-badge" href="" target="_blank" rel="noopener" title="">
+                        status: <span>ok</span>
                     </a>
-                    <span class="api-endpoint-badge" onclick="copyApiEndpoint()" title="点击复制API端点" style="cursor: pointer;">
-                        API端点: <span id="api-endpoint" style="color: #4CAF50; font-weight: bold;">加载中...</span>
+                    <span class="api-endpoint-badge" onclick="copyApiEndpoint()" title="点击复制API接口" style="cursor: pointer;">
+                        API接口: <span id="api-endpoint" style="color: #4CAF50; font-weight: bold;">加载中...</span>
                     </span>
                 </div>
             </div>
